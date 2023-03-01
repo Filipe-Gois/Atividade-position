@@ -93,6 +93,9 @@ section .ajuda-box p {
 
 section .conhecimento-profundo {
     
+    position: relative;
+    left: 60px;
+    bottom: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,6 +110,7 @@ section .conhecimento-profundo {
 }
 
 section .conhecimento-profundo h3 {
+    
     font-family: 'Titillium Web', sans-serif;
     font-size: 26px;
     font-weight:  700;
